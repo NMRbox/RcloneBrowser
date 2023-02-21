@@ -1,0 +1,5 @@
+rclone-browser (2-0) unstable; urgency=medium
+
+  * Bug fix stock rclone-browser 
+
+ -- Gerard Weatherby <gweatherby@uchc.edu>  Tue, 21 Feb 2023 15:40:37 -0500
