@@ -9,9 +9,10 @@ SHELL := /bin/bash
 	cd ../build && make  -j $$(nproc)
 
 usr/bin/rclone-browser: ../build/build/rclone-browser
+	mkdir -p usr/bin
 	cp ../build/build/rclone-browser usr/bin/rclone-browser
 
 build: usr/bin/rclone-browser 
 	
 clean:
-	rm -fr ../build usr/bin/rclone-browser 
+	rm -fr ../build usr/bin
